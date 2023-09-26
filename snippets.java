@@ -10,8 +10,6 @@ open("/customer/orders");
 // Прохождение браузерных окон авторизации
 open("/", AuthenticationType.BASIC,
             new BasicAuthCredentials("user", "password"));
-Пример страницы авторизации:
-
 
 
 Кнопки навигации:
